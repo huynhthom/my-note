@@ -1,0 +1,14 @@
+# Lệnh cơ bản:
+- docker ps => print containers đang chạy
+- docker ps -a => print all containers
+- docker images => như containers
+- docker stop <containers_id> 
+
+# Những lệnh chạy containers thường gặp:
+- Postgres: docker run --name postgresql -e POSTGRES_USER=thom -e POSTGRES_PASSWORD=123456 -p 5433:5432 -v D:/docker/data:/var/lib/postgresql/data -d postgres:13.3
+
+# Lệnh chạy compose
+- docker-compose up 					=> Chạy toàn bộ service trong compose
+- docker-compse up <service_name>			=> Chạy 1 service trong compose
+- docker-compose stop <service_name>		=> Dừng một service
+- docker-compose down 					=> Dừng toàn bộ service trong compose
