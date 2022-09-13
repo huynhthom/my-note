@@ -20,3 +20,6 @@ https://vuejs.org/guide/essentials/lifecycle.html
 - `event.prevent`: Hủy bỏ event mặc định của element 
 Ví dụ: click `submit`, page sẽ reload. Nếu click.prevent `submit` thì page sẽ không reload.
 - `debounce`: set time delay
+
+# Vuetailwind
+https://www.vue-tailwind.com/docs/installation
